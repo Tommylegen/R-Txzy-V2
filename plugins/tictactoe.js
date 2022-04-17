@@ -68,4 +68,6 @@ handler.help = ['tictactoe', 'ttt', 'tttexit'].map(v => v + ' [nama room]')
 handler.tags = ['game']
 handler.command = /^(tictactoe|t{3})(exit)?$/
 
+handler.premium = true
+
 module.exports = handler
